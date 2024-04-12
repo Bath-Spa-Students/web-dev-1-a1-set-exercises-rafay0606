@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="block-container">
+        <h1>Petrol Calculator</h1>
+        <div class="input-container">
+            <!-- Input field for the cost of petrol per liter -->
+            <div>
+                <label for="petrolPrice">Petrol price per litre</label> 
+                <input id="petrolPrice" placeholder="1.72" type="number">
+            </div>
+            <!-- Input field for the number of liters purchased -->
+            <div>
+                <label for="liters">Liters</label>
+                <input id="liters" placeholder="1" type="number">
+            </div>
+        </div>
+        
+        <!-- Button to calculate the total amount -->
+        <div class="btn">
+            <button onclick="calculate()">Calculate Total Amount</button>
+            <!-- Display the total cost of petrol purchased -->
+            <p>Total Amount: <span id="totalAmount">0</span></p>
+        </div>
+    </div>
+</body>
+</html>
