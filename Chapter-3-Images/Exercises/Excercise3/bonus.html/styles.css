@@ -1,0 +1,41 @@
+div { /*given styles for divs*/
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 25px;
+    border: 4px solid black;
+    line-height: 100px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+  }
+  
+  
+  body { /* giving styles for body contents*/
+    margin: 100px auto;
+    width: max-content;
+  }
+
+  .box1 { /*style for box 1*/
+    border-color:blueviolet; 
+    box-shadow: 10px 10px 10px red; /*adds red shadow*/
+  }
+
+  .box2 { /*style for box 2*/
+    border-color:lime; 
+    box-shadow: inset 10px 10px 15px black; /*adds black shadow inside box*/
+  }
+
+  .box3 { /*style for box 3*/
+    border-radius: 20px; /*adds round corners*/
+    box-shadow: /*multiple shadows with different colors*/
+      0 0 0 10px blue,
+      0 0 0 20px red,
+      0 0 0 30px green;
+    border-color: darkorange; 
+  }
+
+  .box4 { /*style for box 4*/
+    text-shadow: 5px 5px 1px black; /*adds black text shadow*/
+    border-color: brown; 
+  }
