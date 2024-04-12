@@ -1,0 +1,45 @@
+/* Stylesheet for the recipe page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00247d;
+}
+
+header, section, footer {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #fff;
+    background-color: #cf142b;
+    padding: 10px;
+
+    text-align: center;
+}
+
+h2 {
+    color: #00247d;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    color: #fff; /* White text */
+    background-color: #cf142b; /* Red background */
+    padding: 10px 0; /* Increased padding for footer */
+}
